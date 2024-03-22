@@ -1,0 +1,2 @@
+2024-03-15 21:29:12,634 Error connecting to the server: Invalid URL 'www.baidu.com': No scheme supplied. Perhaps you meant https://www.baidu.com?
+2024-03-15 21:30:34,660 Server is up - Response time: 0.163388 seconds

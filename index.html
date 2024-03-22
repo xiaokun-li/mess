@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index Page</title>
+</head>
+<body>
+    <ul>
+        {% for k,v in user_list.items() %}
+        <li>{{k}}, <a href="/detail?uid={{k}}">more detail</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
